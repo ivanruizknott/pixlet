@@ -13,12 +13,12 @@ def main(config):
             child = render.Animation(
                 children = [
                     render.Text(
-                        content = now.format("3:04 PM"),
-                        font = "16x32",
+                        content = now.format("304"),
+                        font = "PXNumeral",
                     ),
                     render.Text(
-                        content = now.format("3 04 PM"),
-                        font = "16x32",
+                        content = now.format("304"),
+                        font = "PXNumeral",
                     ),
                 ],
             ),
